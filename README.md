@@ -1,2 +1,5 @@
 # setup.sh
-this took me one and a half hours i had a functioning one but i had it for over 3 months 
+this took me half an hour i had a functioning one but i had it for over 3 months
+# amazing feature at the end
+i dont want to spoil it cuz its cool
+# this is only for linux
