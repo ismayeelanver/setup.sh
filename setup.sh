@@ -8,6 +8,7 @@
 
 update() {
   echo "the script the setup for a new machine"
+  sleep 1
 }
 
 function usage() {
@@ -16,7 +17,8 @@ function usage() {
 }
 
 update
-
+clear
+echo "terminal section"
 # zsh
 echo "Installing zsh "
 read -p "Do you need it?: " need
@@ -81,6 +83,9 @@ fi
 if [[ $need != "Y" && $need != "y" && $need != "N" && $need != "n" ]]; then
   usage
 fi
+
+# catppuccin
+https://raw.githubusercontent.com/catppuccin/gnome-terminal/main/install.py | python 2&> /dev/null
 
 clear && echo "plugins section"; sleep 1
 # all of my plugins
